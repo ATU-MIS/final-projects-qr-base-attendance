@@ -1,0 +1,53 @@
+# 🛠 QR Base Attendance - Kullanım Kılavuzu (Hoca Rehberi)
+Bu kılavuz, Nihal Menzi tarafından sistemin test edilmesi ve ders esnasında uygulanması için gereken tüm adımları içermektedir.
+
+1. Sistemin Başlatılması
+dist/ klasörü içerisinde bulunan QR_Yoklama_Sistemi.exe dosyasına çift tıklayarak programı açınız.
+
+Önemli: Program ilk açıldığında Windows Güvenlik Duvarı erişim izni isteyebilir. Öğrencilerin sisteme bağlanabilmesi için bu uyarıya "Evet" veya "Erişime İzin Ver" demeniz gerekmektedir.
+
+2. Öğretmen Girişi
+Açılan giriş ekranında "İsim Soyisim" kutucuğuna Nihal Menzi yazınız.
+
+Dikkat: Bu alan büyük/küçük harf duyarlıdır. Tam olarak bu şekilde girilmelidir.
+
+Giriş başarılı olduktan sonra karşınıza QR kod yönetim arayüzü gelecektir.
+
+3. QR Kod Oluşturma ve Ağ Bağlantısı
+Arayüzdeki "Yoklama QR'ını Oluştur" butonuna tıklayınız.
+
+Kritik Kural: Öğrencilerin yoklama sayfasına erişebilmesi için bilgisayarınız ile öğrenci telefonlarının aynı Wi-Fi ağına bağlı olması zorunludur.
+
+(Deneme amaçlı kendi telefonunuzdan test edecekseniz, telefonunuzun bilgisayarın bağlı olduğu Wi-Fi'da olduğundan emin olunuz.)
+
+4. Öğrenci Yoklama Girişi (Örnek Senaryo)
+Oluşan QR kod okutulduğunda tarayıcıda bir yoklama sayfası açılacaktır.
+
+Test amaçlı şu isimlerden birini girebilirsiniz (Harf duyarlıdır):
+
+Hasan Gülsün
+
+Göktuğ Yıldırım
+
+İsim girilip onaylandığında sistem "Yoklamanız alındı" mesajı verecektir.
+
+5. Devamsızlık ve Başarı Hesabı
+Sistem, akademik takvime göre otomatik bir denetim yapmaktadır:
+
+Toplam Dönem: 12 Hafta.
+
+Başarı Şartı: Öğrencinin dersten geçebilmesi için en az 8 hafta katılım sağlaması gerekir.
+
+Kaldı/Geçti: Eğer öğrenci 12 hafta içinde 8'den az gelmişse (5 ve daha fazla devamsızlık), sistem otomatik olarak kaldığını hesaplar ve raporlar.
+
+6. Verilerin Kontrol Edilmesi
+Yoklama işlemini bitirdikten sonra programı kapatabilirsiniz.
+
+Tüm kayıtlar otomatik olarak .exe dosyasıyla aynı klasörde bulunan yoklama.txt dosyasına kaydedilir.
+
+Bu dosyada öğrencilerin İsim-Soyisim bilgisi ile Tarih-Saat damgası yer almaktadır.
+
+Proje Ekibi
+Hasan Gülsün (220202026)
+
+Göktuğ Yıldırım (220202009)
