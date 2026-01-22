@@ -6,7 +6,7 @@ Bu proje, geleneksel yoklama süreçlerini dijitalleştirmek ve hızlandırmak a
 Hasan Gülsün - 220202026
 
 Göktuğ Yıldırım - 220202009
-
+...
 🚀 Sistemi Çalıştırma (Hızlı Kurulum)
 1. Hazır (.exe) Sürümü ile Çalıştırma
 Projeyi Python veya kütüphane kurulumu ile uğraşmadan test etmek için:
